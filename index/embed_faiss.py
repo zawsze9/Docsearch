@@ -20,7 +20,10 @@
 import argparse
 import datetime
 import json
+import os
 from pathlib import Path
+
+os.environ.setdefault("HF_HOME", r"D:\hf_cache")  # C 盘仅剩 ~2.6G：模型缓存固定放 D 盘
 
 import faiss
 import numpy as np

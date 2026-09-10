@@ -1,0 +1,4 @@
+data/raw/d2l-zh/
+data/undefined/
+__pycache__/
+*.pyc

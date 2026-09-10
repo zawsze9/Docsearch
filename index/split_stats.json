@@ -1,0 +1,27 @@
+{
+  "params": {
+    "chunk_size": 500,
+    "overlap": 50,
+    "min_chunk": 20
+  },
+  "generated_at": "2026-09-09T12:55:26",
+  "total_docs": 97,
+  "total_chunks": 2986,
+  "by_source": {
+    "d2l-zh-snapshot-20260822-v1": {
+      "docs": 92,
+      "chunks": 2906,
+      "char_min": 21,
+      "char_avg": 452,
+      "char_max": 500
+    },
+    "personal-notes-20260821-v1": {
+      "docs": 5,
+      "chunks": 80,
+      "char_min": 35,
+      "char_avg": 342,
+      "char_max": 500
+    }
+  },
+  "reproduce": "python index/parse_split.py"
+}
